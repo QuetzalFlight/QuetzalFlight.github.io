@@ -3,15 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Basic Web Project</title>
+    <title>Quetzal Flight Dev</title>
     <link rel="stylesheet" href="styles/style.css">
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
 </head>
 <body>
     <header>
-        <h1>Welcome!</h1>
+        <h1 id="welcome-header"></h1>
     </header>
     <main>
-        <p>This is a simple web project structure.</p>
+        <div class="input-container">
+            <input type="text" id="user-input" placeholder="Type something..." />
+            <button id="submit-button">Enter</button>
+        </div>
+        <div id="background-text"></div>
     </main>
     <footer>
         <p>&copy; 2025 Quetzal Flight Development</p>
